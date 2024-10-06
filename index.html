@@ -292,16 +292,15 @@
     <h2 class="text-center text-5xl font-Ovo">Get in touch</h2>
     <p class="text-center max-w-3xl mx-auto mt-5 mb-12 font-Ovo">Ready to elevate your software development and Java skills? Contact me at <b> gaikwadanil530@gmail.com </b> or <b> +918421594102 </b> to discuss your project or training needs. I'd love to hear from you! If you have any questions, comments or feedback, please use the form below. </p>
 
-    <form action="https://api.web3forms.com/submit" method="post" class="max-w-2xl mx-auto" onsubmit="this.submit(); this.reset(); return false;">
-        <input type="hidden" name="access_key" value="6216bce1-7581-43a7-b6ce-ce6668b3c500">
+    <form action="https://api.web3forms.com/submit" method="POST" id="form1" class="max-w-2xl mx-auto" onsubmit="this.submit(); this.reset(); return false;">
+        <input type="hidden" name="access_key" value="7ad62cef-98b9-425f-9f4d-e4ee9c4ab865">
         <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
             <input type="text" placeholder="Enter Your Name" class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90" required name="name">
             <input type="tel" placeholder="Enter Mobile No." class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90" required name="mobile">
             <input type="email" placeholder="Enter Your Email" class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90" required name="email">
         </div>
         <textarea rows="6" placeholder="Enter Your Message Here..." class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90" required name="message"></textarea>
-        <!--<div class="g-recaptcha" data-sitekey="6LeWSlkqAAAAAPCZkRLg0yAnV57l8VNFkznrWT00"></div> <br/>
-        SecretKey - 6LeWSlkqAAAAAMnQo9UKOPnRTM_ad7Y46ieJZMDu-->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
         <button class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover">Submit Now <img src="./images/right-arrow-white.png" alt="" class="w-4"></button>
     </form>
 </div>
