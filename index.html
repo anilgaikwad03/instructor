@@ -28,6 +28,7 @@
             <li><a href="#about">About us</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#courses">Courses</a></li>
+            <li><a href="#faq">FAQ's</a></li>
             <li><a href="#contact">Contact us</a></li>
         </ul>
 
@@ -58,6 +59,7 @@
             <li><a href="#about" onclick="closeMenu()">About us</a></li>
             <li><a href="#services" onclick="closeMenu()">Services</a></li>
             <li><a href="#courses" onclick="closeMenu()">Courses</a></li>
+            <li><a href="#faq" onclick="closeMenu()">FAQ's</a></li>
             <li><a href="#contact" onclick="closeMenu()">Contact us</a></li>
         </ul>
     </nav>
@@ -65,14 +67,21 @@
 
     <header>
         <div class="w-11/12 max-w-5xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-            <!--<img src="./images/Photo_Anil.jpg" alt="" class="w-32 rounded-full"> -->
-            <h3 class="flex items-end gap-2 mb-3 font-Outfit border-1 bg-black text-white dark:bg-white dark:text-black p-2"> <!--<img src="./images/hand-icon.png" alt="" class="w-8"> --> Get Involve and Get Evolve </h3>
+
+            <blockquote class="text-lg font-Ovo font-semibold italic text-center text-slate-900">
+                <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+                  <span class="relative text-white">Get Involve and Get Evolve</span>
+                </span>
+            </blockquote>
+
+            <!--<h3 class="flex items-end gap-2 mb-3 font-semibold rounded-md bg-gradient-to-r from-indigo-500 to-blue-500 text-white p-2"><img src="./images/hand-icon.png" alt="" class="w-8"> Get Involve and Get Evolve </h3>-->
             <h1 class="text-3xl sm:text-6xl lg:text-[80px] font-Ovo">Learn Java and Upskill Your Tech Career</h1>
-            <p class="max-w-2xl mx-auto font-Ovo"> You can code once you try it with <span class="bg-black text-white dark:bg-white dark:text-black p-1">evolveIT</span>. No matter your age, previous knowledge, or origin. It's like riding a bicycle: all you need is to practice. And evolveIT, the Java programming course, is your bicycle with training wheels. Practice in Java coding without pressure, at your pace, from the first lessons.</p>
+            <p class="max-w-2xl mx-auto font-Ovo"> You can code once you try it with evolveIT. No matter your age, previous knowledge, or origin. It's like riding a bicycle: all you need is to practice. And evolveIT, the Java programming course, is your bicycle with training wheels. Practice in Java coding without pressure, at your pace, from the first lessons.</p>
 
             <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
-                <a href="#contact" class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent">Attend Free Demo Class <img src="./images/right-arrow-white.png" alt="" class="w-4"></a>
-                <a href="./Course_Content/Java_Full_Stack.pdf" target="_blank" class="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black">Download Course Content <img src="./images/download-icon.png" alt="" class="w-4"></a>
+                <a href="#contact" class="px-10 py-3 border rounded-full bg-gradient-to-r from-indigo-500 to-blue-500 text-white flex items-center gap-2 dark:border-transparent">Attend Free Demo Class <img src="./images/right-arrow-white.png" alt="" class="w-4"></a>
+                <a href="./Course_Content/Java_Full_Stack.pdf" target="_blank" class="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white hover:bg-gradient-to-r from-indigo-500 to-blue-500 hover:text-white dark:text-black">Download Course Content <img src="./images/download-icon.png" alt="" class="w-4"></a>
+                
             </div>
         </div>
     </header>
@@ -80,7 +89,7 @@
     <!---About-->
 
     <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
-        <h4 class="text-center mb-2 text-lg font-Ovo">Introduction</h4>
+        <h4 class="text-center mb-2 text-lg font-Ovo">Welcome to evolveIT.</h4>
         <h2 class="text-center text-5xl font-Ovo">About us</h2>
 
         <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
@@ -95,8 +104,65 @@
                 <p class="w-64 sm:w-80 rounded-3xl max-w-none"></p>
 
 
-                <h4 class="my-6 text-3xl text-gray-700 font-Ovo dark:text-white/80">About the Instructor</h4>
-                <p class="mb-10 max-w-2xl font-Ovo">Anil Gaikwad, Technical Instructor at evolveIT. Around Three Years of experience as Java Full Stack Developer (Service Based Company Located in Hyderabad). I have worked on various technologies till now from which Java being my forte.. Unlock your potential with our customized courses designed to enhance your skills and knowledge.</p>
+                <section class="container mx-auto">
+                    <div
+                      class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 border border-gray-300 rounded-2xl"
+                    >
+                      <div class="p-6">
+                        <div
+                          class="flex lg:gap-0 gap-6 flex-wrap justify-between items-center"
+                        >
+                          <div class="flex items-center gap-3">
+                            <img
+                              src="./images/Photo_Anil.jpg"
+                              alt="avatar"
+                              class="inline-block relative object-cover object-center w-12 h-12 rounded-lg"
+                            />
+                            <div>
+                              <h6
+                                class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900"
+                              >
+                                Anil Gaikwad (Instructor)
+                              </h6>
+                              <p
+                                class="block antialiased font-sans text-sm font-light leading-normal text-inherit font-normal text-gray-600"
+                              >
+                                gaikwadanil530@gmail.com
+                              </p>
+                            </div>
+                          </div>
+                          <div class="flex flex-wrap items-center gap-2">
+                            <button
+                              class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] border-gray-300 flex items-center gap-2"
+                              type="button"
+                              data-ripple-dark="true"
+                              onclick="location.href='https://github.com/anilgaikwad03'"
+                            >
+                              <i class="fa fa-github text-base" aria-hidden="true"></i
+                              >Github</button
+                            ><button
+                              class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] border-gray-300 flex items-center gap-2"
+                              type="button"
+                              data-ripple-dark="true"
+                              onclick="location.href='https://www.linkedin.com/in/anil-gaikwad-8435671b7/'"
+                            >
+                              <i class="fa-brands fa-twitter" aria-hidden="true"></i
+                              >LinkedIn</button
+                            >
+                          </div>
+                        </div>
+                        <p
+                          class="block antialiased font-sans text-sm font-light leading-normal text-inherit font-normal text-gray-600 mt-6"
+                        >
+                        He is a Technical Instructor at evolveIT with 3+ Years of experience as Java Full Stack Developer (Service Based Company Located in Hyderabad). He has worked on various technologies till now from which Java being his forte.. Unlock your potential with our customized courses designed to enhance your skills and knowledge.</p>
+                      </div>
+                    </div>
+                  </section>
+
+<!--
+                <h4 class="my-6 text-3xl bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent font-bold">Anil Gaikwad.</h4>
+                <p class="mb-10 max-w-2xl font-Ovo">He is a Technical Instructor at evolveIT with 3+ Years of experience as Java Full Stack Developer (Service Based Company Located in Hyderabad). He has worked on various technologies till now from which Java being his forte.. Unlock your potential with our customized courses designed to enhance your skills and knowledge.</p>
+-->
 
                 <h4 class="my-6 text-xl text-gray-700 font-Ovo dark:text-white/80">Tools (IDE's) We Use</h4>
                 <ul class="flex items-center gap-3 sm:gap-5">
@@ -153,6 +219,9 @@
         </div>
     </div>
 
+
+<!--Services-->
+
     <div id="services" class="w-full px-[12%] py-10 scroll-mt-20">
         <h4 class="text-center mb-2 text-lg font-Ovo">What We Offer</h4>
         <h2 class="text-center text-5xl font-Ovo">Services</h2>
@@ -201,7 +270,7 @@
     <!--Courses-->
 
     <div id="courses" class="w-full px-[12%] py-10 scroll-mt-20">
-        <h2 class="text-center sm:text-5xl text-2xl font-Ovo bg-rose-50 rounded-md dark:text-black">Why is Java a win-win option for learning to program?</h2>
+        <h2 class="text-center sm:text-5xl text-2xl font-Ovo bg-gradient-to-r from-amber-200 to-yellow-400 rounded-md dark:text-black p-2">Why is Java a win-win option for learning to program?</h2>
         <h4 class="text-center mb-2 text-lg font-Ovo">It might be the best choice for a career in tech</h4>
         <h2 class="text-center text-5xl font-Ovo">Our Courses</h2>
         <p class="text-center max-w-3xl mx-auto mt-5 mb-12 font-Ovo">Customized Training and Project Guidance. Dive into our Java Full Stack Development course, where you'll master Java programming alongside front-end and back-end frameworks.</p>
@@ -291,6 +360,66 @@
     </div>
 
 
+
+    <!---FAQs-->
+
+    <section id="faq" class="px-8 py-20">
+        <div class="container mx-auto">
+          <div class="mb-14 text-center">
+            <h2 class="text-center text-5xl font-Ovo">Frequently Asked Questions</h2>
+          </div>
+          <div class="max-w-3xl mx-auto grid gap-10">
+            <div>
+              <h4
+                class="block antialiased tracking-normal font-sans text-[20px] font-bold leading-snug text-blue-gray-900 pb-6"
+              >
+              What is the duration of this program?
+              </h4>
+              <div class="border-t border-gray-200 pt-4">
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit font-normal !text-gray-500"
+                >
+                  We offers customized Java Training since depending on which course you have selected, the duration of the course could range from 1 month to 6 months. 
+                </p>
+              </div>
+            </div>
+            <div>
+              <h4
+                class="block antialiased tracking-normal font-sans text-[20px] font-bold leading-snug text-blue-gray-900 pb-6"
+              >
+              How many modules will be there in the Full Stack Java Program?
+              </h4>
+              <div class="border-t border-gray-200 pt-4">
+                <p
+                  class="block antialiased font-sans text-base font-light leading-relaxed text-inherit font-normal !text-gray-500"
+                >
+                Java Full Stack Development course, where you'll master Java programming alongside front-end and back-end frameworks.
+                Following are the modules which included in this program - <br> Core Java, Advanced Java, SpringBoot, Web Technologies, Database Technologies, Projects
+                
+                </p>
+              </div>
+            </div>
+            <div>
+                <h4
+                  class="block antialiased tracking-normal font-sans text-[20px] font-bold leading-snug text-blue-gray-900 pb-6"
+                >
+                What is the role of the Instructors?
+                </h4>
+                <div class="border-t border-gray-200 pt-4">
+                  <p
+                    class="block antialiased font-sans text-base font-light leading-relaxed text-inherit font-normal !text-gray-500"
+                  >
+                  Our instructor would teach you the conceptss mentioned in the coursse curriculum and would take live classes.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      
+
 <!--Contact-->
 
 <div id="contact" class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('./images/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
@@ -320,13 +449,12 @@
         <img src="./images/evolveitlogo_dark.png" alt="" class="w-36 mx-auto mb-2 hidden dark:block">
         <div class="w-max flex items-center gap-2 mx-auto">
             <img src="./images/mail_icon.png" alt="" class="w-6 dark:hidden">
-            <img src="./images/mail_icon_dark.png" alt="" class="w-6 hidden dark:block">
-            gaikwadanil530@gmail.com || +91-8421594102
+            <img src="./images/mail_icon_dark.png" alt="" class="w-6 hidden dark:block">gaikwadanil530@gmail.com|+91-8421594102
         </div>
     </div>
 
     <div class="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>© 2024 Anil Gaikwad. All rights reserved.</p>
+        <p>Copyright © 2024 evolveIT.</p>
         <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
             <li><a href="">GitHub</a></li>
             <li><a href="">Twitter</a></li>
