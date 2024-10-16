@@ -13,18 +13,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
 </head>
 
-
-
-
-
-
-
 <body class="overflow-x-hidden font-Outfit leading-8 dark:bg-darkTheme dark:text-white">
     <script src="https://app.wotnot.io/chat-widget/5odqKsTGjPJt124036427397COe7MCoN.js" defer></script>
 
     <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
         <img src="./images/header-bg-color.png" alt="" class="w-full">
     </div>
+
     <nav class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
         <a href="#">
             <img src="./images/evolveitlogo.png" alt="Anil_Logo" class="w-28 rounded-sm cursor-pointer mr-14 dark:hidden">
@@ -47,15 +42,13 @@
             <img src="./images/arrow-icon.png" alt="" class="w-3 dark:hidden">
             <img src="./images/arrow-icon-dark.png" alt="" class="w-3 hidden dark:block">
         </a>
-
         <button class="block md:hidden ml-3" onclick="openMenu()">
             <img src="./images/menu-black.png" alt="" class="w-6 dark:hidden">
             <img src="./images/menu-white.png" alt="" class="w-6 hidden dark:block">
         </button>
         </div>
 
-        <ul id="sideMenu" class="flex md:hidden flex-col py-20 px-10 fixed gap-4 -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-Ovo dark:bg-darkHover dark:text-white">
-            
+        <ul id="sideMenu" class="flex md:hidden flex-col py-20 px-10 fixed gap-8 -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 text-2xl dark:bg-darkHover dark:text-white">
             <div class="absolute right-6 top-6" onclick="closeMenu()">
                 <img src="./images/close-black.png" alt="" class="w-5 cursor-pointer dark:hidden">
                 <img src="./images/close-white.png" alt="" class="w-5 cursor-pointer hidden dark:block">
@@ -67,6 +60,7 @@
             <li><a href="#courses" onclick="closeMenu()">Courses</a></li>
             <li><a href="#contact" onclick="closeMenu()">Contact us</a></li>
         </ul>
+
     </nav>
 
 <!--Header-->
@@ -74,23 +68,18 @@
     <header>
         <div class="w-11/12 max-w-5xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
 
-
-            <div class="relative rounded-full px-3 py-1 text-md leading-6 ring-1 dark:bg-white ring-gray-900/10 hover:ring-gray-900/20">
-                Get Involve and Get Evolve. <a href="#courses" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+            <div class="relative rounded-full px-3 py-1 text-md leading-6 ring-1 text-gray-700 bg-gray-100 dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 ring-gray-900/10 hover:ring-gray-900/20">
+                Get Involve and Get Evolve. <a href="#courses" class="font-semibold text-indigo-600  dark:text-yellow-500"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
               </div>
-
-              
-
             <!--<h3 class="flex items-end gap-2 mb-3 font-semibold rounded-md bg-gradient-to-r from-indigo-500 to-blue-500 text-white p-2"><img src="./images/hand-icon.png" alt="" class="w-8"> Get Involve and Get Evolve </h3>-->
             <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Learn Java</span> and Upskill Your Tech Career.</h1>
             <p class="text-md font-normal text-gray-500 lg:text-md dark:text-gray-400">You can code once you try it with evolveIT. No matter your age, previous knowledge, or origin. It's like riding a bicycle: all you need is to practice. And evolveIT, the Java programming course, is your bicycle with training wheels. Practice in Java coding without pressure, at your pace, from the first lessons.</p>
-            
-
             <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
                 <a href="#contact" class="px-10 py-3 border rounded-full bg-gradient-to-r from-indigo-500 to-blue-500 text-white flex items-center gap-2 dark:border-transparent">Attend Free Demo Class <img src="./images/right-arrow-white.png" alt="" class="w-4"></a>
-                <a href="./Course_Content/Java_Full_Stack.pdf" target="_blank" class="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white hover:bg-gradient-to-r from-indigo-500 to-blue-500 hover:text-white dark:text-black">Download Course Content <img src="./images/download-icon.png" alt="" class="w-4"></a>
+                <a href="./Course_Content/Java_Full_Stack.pdf" target="_blank" class="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-800">Download Course Content <img src="./images/download-icon.png" alt="" class="w-4"></a>
                 
             </div>
+
         </div>
     </header>
 
@@ -99,12 +88,13 @@
     <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
         <h4 class="text-center mb-2 text-lg font-Ovo">Welcome to evolveIT.</h4>
         <h2 class="text-center text-5xl font-Ovo">About us</h2>
+        
         <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
             <div class="max-w-max mx-auto relative">
                 <img src="./images/aboutphoto.png" alt="" class="w-64 sm:w-80 rounded-3xl max-w-none">
             </div>
             <div class="flex-1">
-                <p class="mb-3 text-gray-500 text-md dark:text-gray-400"><strong class="font-semibold text-gray-900 dark:text-white">evolveIT</strong> is the Best Java Training Institute in Solapur, Maharashtra. We offer industry and interview oriented training. The exhaustive training involves confidence building and much more. All the concepts will be taught with realtime examples and in an easily understandable way.<span class="text-blue-600 dark:text-blue-500"> Don't miss out on the opportunity to become the best version of yourself.</span></p>
+                <p class="mb-3 text-gray-500 text-md dark:text-gray-400"><strong class="font-semibold text-gray-900 dark:text-white">evolveIT</strong> is the Best Java Training Institute in Solapur, Maharashtra. We offer industry and interview oriented training. The exhaustive training involves confidence building and much more. All the concepts will be taught with realtime examples and in an easily understandable way. Don't miss out on the opportunity to become the best version of yourself.</p>
                 <h4 class="my-6 text-xl text-gray-700 font-Ovo dark:text-white/80"></h4>
                 <p class="w-64 sm:w-80 rounded-3xl max-w-none"></p>
 
@@ -223,11 +213,6 @@
         </div>
     </div>
 
-
-
-
-    
-  
 <!--Services-->
 
     <div id="services" class="w-full px-[12%] py-10 scroll-mt-20">
@@ -238,12 +223,12 @@
             <div class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
                 <img src="./images/ui-icon.png" alt="" class="w-10">
                 <h3 class="my-4 font-semibold text-gray-700 text-xl dark:text-white font-Ovo">IT Training</h3>
-                <p class="mb-3 text-gray-500 text-sm dark:text-gray-400">Our online IT training programs are designed to allow our students to study anytime and anywhere in an affordable and convenient manner.</p>
-                <ul class="mb-3 text-gray-500 text-sm dark:text-gray-400">
-                    <li>- Beginner to advanced Java courses</li>
-                    <li>- Practice and project-based learning</li>
-                    <li>- Mentorship and code review</li>
-                    <li>- Flexible scheduling (online/offline)</li>
+                <p class="mb-3 text-gray-500 text-md dark:text-gray-400">Our online IT training programs are designed to allow our students to study anytime and anywhere in an affordable and convenient manner.</p>
+                <ul class="mb-3 text-blue-500 text-md">
+                    <li>*Beginner to advanced Java courses</li>
+                    <li>*Practice and project-based learning</li>
+                    <li>*Mentorship and code review</li>
+                    <li>*Flexible scheduling (online/offline)</li>
                 </ul>
                 <a href="#contact" class="flex items-center gap-2 text-sm mt-5">Attend Free Demo Class<img src="./images/right-arrow.png" alt="" class="w-4"></a>
             </div>
@@ -251,11 +236,11 @@
             <div class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
                 <img src="./images/web-icon.png" alt="" class="w-10">
                 <h3 class="my-4 font-semibold text-gray-700 text-xl dark:text-white font-Ovo">Software Developement</h3>
-                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Get high-quality software solutions tailored to your business needs. Proposing current trending web development services and support for small and local businesses.</p>
-                <ul class="text-sm text-gray-600 leading-5 dark:text-white/80">
-                    <li>- Custom software development</li>
-                    <li>- Application maintenance and optimization</li>
-                    <li>- Technologies: Java, Spring, Hibernate, MySQL, Oracle, and more</li>
+                <p class="mb-3 text-gray-500 text-md dark:text-gray-400">Get high-quality software solutions tailored to your business needs. Proposing current trending web development services and support for small and local businesses.</p>
+                <ul class="mb-3 text-blue-500 text-md">
+                    <li>*Custom software development</li>
+                    <li>*Application maintenance and optimization</li>
+                    <li>*Technologies: Java, Spring, Hibernate, MySQL, Oracle, and more</li>
                 </ul>
                 <a href="" class="flex items-center gap-2 text-sm mt-5">Read more <img src="./images/right-arrow.png" alt="" class="w-4"></a>
             </div>
@@ -263,12 +248,12 @@
             <div class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
                 <img src="./images/graphics-icon.png" alt="" class="w-10">
                 <h3 class="my-4 font-semibold text-gray-700 text-xl dark:text-white font-Ovo">PPT Designing</h3>
-                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Elevate your PowerPoint Presentations with custom designs, engaging stories, and compelling visuals. Let's create impact together!.</p>
-                <ul class="text-sm text-gray-600 leading-5 dark:text-white/80">
-                    <li>- Expertise in PowerPoint and design principles</li>
-                    <li>- Attention to detail and precision</li>
-                    <li>- Timely delivery and flexibility</li>
-                    <li>- Passion for creating captivating stories</li>
+                <p class="mb-3 text-gray-500 text-md dark:text-gray-400">Elevate your PowerPoint Presentations with custom designs, engaging stories, and compelling visuals. Let's create impact together!.</p>
+                <ul class="mb-3 text-blue-500 text-md">
+                    <li>*Expertise in PowerPoint and design</li>
+                    <li>*Attention to detail and precision</li>
+                    <li>*Timely delivery and flexibility</li>
+                    <li>*Passion for creating captivating stories</li>
                 </ul>
                 <a href="" class="flex items-center gap-2 text-sm mt-5">Read more <img src="./images/right-arrow.png" alt="" class="w-4"></a>
             </div>
@@ -280,7 +265,6 @@
     <div id="courses" class="w-full px-[12%] py-10 scroll-mt-20">
         <h2 class="text-center text-5xl font-Ovo">Our Career Programs</h2>
         <p class="text-center max-w-3xl mx-auto mt-5 mb-12 font-Ovo">Customized Training and Project Guidance. Dive into our Java Full Stack Development course, where you'll master Java programming alongside front-end and back-end frameworks.</p>
-
 
         <div class="grid grid-cols-1 sm:grid-cols-4 my-10 gap-5 dark:text-black">
             
@@ -321,7 +305,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="aspect-square bg-[url('./images/spring.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
                 <div class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
@@ -364,18 +347,14 @@
             <img src="./images/right-arrow-bold.png" alt="" class="w-4 dark:hidden">
             <img src="./images/right-arrow-bold-dark.png" alt="" class="w-4 hidden dark:block">
         </a>
-    </div>
-
-
-
-      
+    </div> 
 
 <!--Contact-->
 
 <div id="contact" class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('./images/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
     <h4 class="text-center mb-2 text-lg font-Ovo">Register for Demo Class</h4>
     <h2 class="text-center text-5xl font-Ovo">Get in touch</h2>
-    <p class="text-center max-w-3xl mx-auto mt-5 mb-12 font-Ovo">Ready to elevate your software development and Java skills? Contact me at <b> gaikwadanil530@gmail.com </b> or <b> +918421594102 </b> to discuss your project or training needs. I'd love to hear from you! If you have any questions, comments or feedback, please use the form below. </p>
+    <p class="text-center max-w-3xl mx-auto mt-5 mb-12 mb-3 text-gray-500 text-md dark:text-gray-400">Ready to elevate your software development and Java skills? Contact me at <b> gaikwadanil530@gmail.com </b> or <b> +918421594102 </b> to discuss your project or training needs. I'd love to hear from you! If you have any questions, comments or feedback, please use the form below. </p>
 
     <form action="https://api.web3forms.com/submit" method="POST" id="form1" class="max-w-2xl mx-auto" onsubmit="this.submit(); this.reset(); return false;">
         <input type="hidden" name="access_key" value="7ad62cef-98b9-425f-9f4d-e4ee9c4ab865">
@@ -388,6 +367,7 @@
         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
         <button class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover">Submit Now <img src="./images/right-arrow-white.png" alt="" class="w-4"></button>
     </form>
+
 </div>
 
 <section class=" text-center bg-white dark:bg-gray-900">
@@ -420,7 +400,6 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                     </svg>
                 </span>
-                
                 <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Visit us</h2>
                 <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Visit our office</p>
                 <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">44, Damani Nagar, Near Reliance Market, Solapur 413001</p>
@@ -432,7 +411,6 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                     </svg>
                 </span>
-                
                 <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Call us</h2>
                 <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
                 <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+91-8421594102</p>
